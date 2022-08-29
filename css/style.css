@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200;400&family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+
+/*======================
+google fonts family
+
+font-family: 'Anek Telugu', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+colors
+top bar color : #3e4444;
+primary color: #82b74b;
+seondary color: #405d27;
+optional color : #c1946a;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+/********** header css ***************/
+header{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+header .top-header{
+    width: 100%;
+    background: #3e4444;
+    height: 80px;
+    display: flex;
+}
+header .top-header .social-icons{
+    color: #fff;
+    margin-left: 10%;
+    padding: 30px 20px;
+    display: flex;
+}
+header .top-header .social-icons i{
+    padding: 0px 10px;
+}
+header .top-header form{
+    width: 50%;
+    padding: 20px 40px;
+    margin-left: 5%;
+    display: flex;
+}
+header .top-header form input{
+    width: 90%;
+    border: none;
+    height: 35px;
+    padding: 0px 15px;
+    outline: none;
+    font-size: 16px;
+}
+header .top-header form button{
+    width: 10%;
+    border: none;
+    height: 35px;
+    outline: none;
+    background: #82b74b;
+    color: #fff;
+}
+header .top-header form button:hover{
+    background: #c1946a;
+}
+header .top-header .wrapper {
+    display: flex;
+    margin-left: 5%;
+}
+header .top-header  .wrapper h1{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 30px 10px;
+}
+
+/********** navbar css **************/
+header nav{
+    width: 100%;
+    background: #82b74b;
+    height: 40px;
+}
+nav .navbar ul{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+nav .navbar ul li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 6px 0px;
+}
+nav .navbar ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Anek Telugu', sans-serif;
+}
+nav .navbar ul li:hover{
+    background: #405d27;
+}
+
+/*********************************
+        start of body
+********************************/
+
+.container{
+    width: 100%;
+}
+.container .banner{
+    width: 100%;
+    height: 70vh;
+}
+.container .banner img{
+    height: 100%;
+    width: 100%;
+}
+/* highlight news css*/
+.highlights{
+    width: 70%;
+    margin-left: 15%;
+}
+.highlights .wrapper{
+    display: inline-block;
+    text-align: center;
+    color: #3e4444;
+    border-left: 4px #c1946a solid;
+    margin-top: 0px;
+}
+.highlights .wrapper h1{
+    font-size: 24px;
+    padding: 10px 15px;
+}
+.highlights .wrapper h1 a{
+    text-decoration: none;
+    color: #000;
+}
+.highlights .wrapper h1 i{
+    padding: 0px 10px;
+}
+.highlights .wrapper:hover{
+    background: #82b74b;
+    transition: 0.5s ease;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+.highlights .wrapper h1 a:hover{
+    transition: 0.5s ease;
+    color: #fff;
+} 
+
+/*********************************
+      start of table container
+********************************/
+.container .wrapper{
+    display: flex;
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 5%;
+}
+.container .wrapper .wrapper-container{
+    width: 30%;
+    box-shadow: 0px 2px 3px #444;
+    padding: 20px 30px;
+    margin-left: 15px;
+
+}
+.container .wrapper .wrapper-container h1{
+    color: #82b74b;
+    font-size: 24px;
+    font-family: 400;
+    padding: 1px 20px;
+}
+.container .wrapper .wrapper-container ul li {
+    list-style: none;
+    padding: 5px 10px;
+}
+.container .wrapper .wrapper-container ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.container .wrapper .wrapper-container ul li a i{
+    padding: 0px 10px;
+}
+.container .wrapper .wrapper-container ul li a:hover{
+    color: #405d27;
+}
+.container .wrapper .top-section{
+    box-shadow: 0px 2px 3px #444;
+}
+.container .wrapper .buttom-section{
+    box-shadow: 0px 2px 3px #444;
+    margin-top: 30px;
+}
+
+/*********************************
+      start of table container
+********************************/
+
+.container .ipo{
+    text-align: center;
+    padding: 30px 0px;
+}
+.container .ipo h1{
+    color: #82b74b;
+}
+.container .ipo h1 span{
+    color: #000;
+}
+
+/* ipo table */
+.container .ipo #table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+
+}
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+  
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #405d27;
+    color: white;
+}  
+
+  
+/*********************************
+      start of table container
+********************************/
+footer{
+    background: #3e4444;
+    border-top: 5px #c1946a solid;
+}
+footer .wrapper{
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+}
+/*column1 css*/
+footer .wrapper .column{
+    display: flex;
+    width: 75%;
+    margin-top: 50px;
+}
+footer .wrapper .column .links{
+    width: 20%;
+    margin-left: 5%;
+}
+footer .wrapper .column .links h1{
+    color: #82b74b;
+    font-size: 20px;
+}
+footer .wrapper .column .links ul{
+    padding: 10px 0px;
+}
+footer .wrapper .column .links ul li{
+    font-size: 14px;
+    list-style: none;
+    padding: 2px 0px;
+}
+footer .wrapper .column .links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+footer .wrapper .column .links ul li a:hover{
+    color: #82b74b;
+   
+}
+footer .wrapper .col{
+    margin-top: 50px;
+    width: 25%;
+}
+footer .wrapper .col .content a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+footer .wrapper .col .content a i{
+    padding: 0px 10px;
+}
+/* lower footer **/
+footer .buttom-footer{
+    width: 100%;
+    height: 30px;
+    background: rgb(45, 45, 45);
+    display: flex;
+}
+footer .buttom-footer ul{
+    display: flex;
+    width: 50%;
+    margin-left: 10%;
+}
+footer .buttom-footer ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+footer .buttom-footer ul li a{
+    text-decoration: none;
+    color: rgb(200, 197, 197);
+    font-weight: 300;
+}
+footer .buttom-footer h1{
+    font-size: 14px;
+    color: rgb(200, 197, 197);
+    font-weight: 200;
+    padding: 5px 10px;
+    margin-left: 5%;
+}
+
+
+/*********************************
+==================================
+      start of media query
+==================================
+********************************/
+@media screen and (max-width: 600px) {
+    header{
+        position: fixed;
+        width: 100%;
+        height: 50px;
+    }
+    header .top-header .social-icons{
+        display: none;
+    }
+    header .top-header .wrapper{
+        display: none;
+    }
+    header .top-header form{
+        margin: 0;
+    }
+    nav{
+        display: none;
+        padding: 0;
+    }
+
+    /*****banner css*********/
+    .container .banner{
+        width: 100%;
+        height: 150px;
+        display: inline;
+        margin-top: 50px;
+    }
+    .container .banner img{
+        width: 100%;
+        height: 100%;
+    }
+  }
+  
